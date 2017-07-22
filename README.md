@@ -10,7 +10,7 @@ __Needs further tests to have error free testnet installation__
 
 Follow the instructions from the [Official build guide](https://github.com/steemit/steem). When setting the cmake flags, instead of the following:
 
-   cmake -DBOOST_ROOT="$BOOST_ROOT" -DCMAKE_BUILD_TYPE=Release ..
+    cmake -DBOOST_ROOT="$BOOST_ROOT" -DCMAKE_BUILD_TYPE=Release ..
 
 Replace it with 
 
