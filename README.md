@@ -32,8 +32,9 @@ _Note: testnet can be named to anything. It will be the storage of data from the
 
 ### Configuring the witness and miners
 
-Edit the file `testnet/config.ini` or the folder set in the initial run (`-d testnet`). Edit the following:
+Edit the file `testnet/config.ini` or the folder set in the initial run (`-d testnet`). Uncomment and set the following:
 
+    rpc-endpoint =  127.0.0.1:8090
     enable-stale-production=true
 
     witness = "initminer"
