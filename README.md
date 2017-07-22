@@ -36,7 +36,6 @@ Edit the file `testnet/config.ini` or the folder set in the initial run (`-d tes
 
     enable-stale-production=true
 
-    miner = ["initminer","INITMINER_PRIVATE_KEY"] // Add the private key taken from initial run to the second element in the array
     witness = "initminer"
     witness = "randomwitness" // This makes the config ini break for some reason... or not
 
@@ -52,5 +51,6 @@ If all goes well, after awhile (~20 seconds) it should show a welcome screen and
 
 # TODO:
 
-- Figure out what really happens when adding new unrelated witness
-- UI (check steem/condenser)
+- [x] Generate blocks for steem
+- [ ] Figure out what really happens when adding new unrelated witness
+- [ ] UI (check steem/condenser)
